@@ -63,9 +63,11 @@ This section provides setup and development information for those who wish to co
    git clone https://github.com/ManoaBites/Manoa-bites-app.git
 
 2. Install the dependencies:
+   ```bash
    npm install
    
 3. Start the application:
+   ```bash
    npm start
 
 
