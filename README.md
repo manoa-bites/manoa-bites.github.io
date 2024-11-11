@@ -33,4 +33,4 @@ We’re a team of five dedicated developers passionate about enhancing the campu
 
 Each team member brings a unique skill set to the project, helping us create a user-friendly and comprehensive food directory for the UH Manoa campus.
 
-For more details on our project’s progress and development, visit our [application repository](link-to-Manoa-munchie-app).
+For more details on our project’s progress and development, visit our [application repository](https://github.com/manoa-munchie/manoa-bites-app).
