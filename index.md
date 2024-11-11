@@ -1,36 +1,63 @@
-# Manoa-Bites
+# Manoa Bites
 
-**Overview**  
-Manoa Bites is a campus-friendly app designed to make finding specific food types on the University of Hawaii at Manoa campus easier. With numerous food options on campus—from Campus Center and food trucks to vending machines and Paradise Palms—it can be hard to know who’s serving what, especially if you’re craving something specific, like Chinese food, or hoping to catch a particular dish like the fresh salmon fillet at Campus Center.
+## Table of contents
 
-**The Problem**  
-There are a lot of food choices across campus, but finding exactly what you want can be challenging. Whether you’re looking for a particular cuisine, a specific menu item, or simply curious about what’s available at the moment, navigating these options can be time-consuming and frustrating.
+* [Overview](#overview)
+* [Deployment](#deployment)
+* [User Guide](#user-guide)
+* [Community Feedback](#community-feedback)
+* [Developer Guide](#developer-guide)
+* [Development History](#development-history)
+* [Continuous Integration](#continuous-integration)
+* [Walkthrough Videos](#walkthrough-videos)
+* [Example Enhancements](#example-enhancements)
+* [Team](#team)
 
-**The Solution**  
-The Manoa Bites app provides a consolidated directory of food choices across campus locations. Through Manoa Bites, users can log in to:
+## Overview
 
-- Find specific menu items available at campus locations today.
-- See what food is available right now.
-- Discover when their preferred food styles are available today.
+Manoa Bites is a web application designed to help students and staff at the University of Hawaii at Manoa easily find food options across campus locations. With Manoa Bites, users can discover available menu items, search for specific cuisines, and find out which dishes are being served on any given day. Key features include:
 
-**Roles in the App**  
-Manoa Bites organizes its features around three user roles:
+* **Campus-wide Food Directory**: Consolidates food options from Campus Center, food trucks, Manoa Gardens, and other campus locations.
+* **Real-time Updates**: Vendors can log in to update daily menus, ensuring users always see current options.
+* **Personalized Experience**: Users can set food preferences and get suggestions tailored to their tastes.
+* **Roles**: Three user roles (Users, Vendors, and Admins) for personalized and manageable access.
 
-1. **Users**: Can log in to set preferences, filter food choices, and receive personalized suggestions.
-2. **Vendors**: Can log in to update their menus daily and manage their profile information.
-3. **Admins**: Can manage user roles and oversee system settings.
+## Deployment
 
-With these roles, Manoa Bites enables users to find relevant food choices based on personal preferences while allowing vendors to share up-to-date menu information with the campus community.
+Manoa Bites is deployed on [link-to-deployment] for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
 
-**Team Members**  
-We’re a team of five dedicated developers passionate about enhancing the campus dining experience:
+## User Guide
 
-- **John Bernardo** - Role (e.g., Frontend Developer)
-- **Leighton Miguel** - Role (e.g., Backend Developer)
-- **Caleb Hopkins** - Role (e.g., UI/UX Designer)
-- **Jingyu Huang** - Role (e.g., Database Specialist)
-- **Pelita Felicitas** - Role (e.g., Project Manager)
+This section provides a walkthrough of the Manoa Bites user interface and its capabilities.
 
-Each team member brings a unique skill set to the project, helping us create a user-friendly and comprehensive food directory for the UH Manoa campus.
+### Landing Page
 
-For more details on our project’s progress and development, visit our [application repository](https://github.com/manoa-munchie/manoa-bites-app).
+The landing page introduces users to Manoa Bites and provides links to log in or sign up.
+
+![](images/landing-page.png)
+
+### Dashboard
+
+After logging in, users are taken to the dashboard, where they can browse menu items, search for specific food types, and set preferences.
+
+![](images/dashboard-page.png)
+
+### Vendor Menu Update
+
+Vendors can log in to update their daily menu items, ensuring that users always see current options across campus.
+
+![](images/vendor-menu-update.png)
+
+## Community Feedback
+
+We welcome feedback to improve Manoa Bites! Please take a few minutes to fill out our [Manoa Bites Feedback Form](https://forms.gle/samplelink), which will help us enhance the user experience.
+
+## Developer Guide
+
+This section provides setup and development information for those who wish to contribute to Manoa Bites.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ManoaBites/Manoa-bites-app.git
