@@ -1,3 +1,3 @@
-# Campus Cravings - UH
+# Manoa Bites
 
 ## Table of Contents
