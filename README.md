@@ -1,1 +1,1 @@
-# campus-cravings-uh
+# manoabites
