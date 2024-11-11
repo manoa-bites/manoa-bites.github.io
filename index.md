@@ -61,3 +61,42 @@ This section provides setup and development information for those who wish to co
 1. Clone the repository:
    ```bash
    git clone https://github.com/ManoaBites/Manoa-bites-app.git
+
+2. Install the dependencies:
+   npm install
+   
+3. Start the application:
+   npm start
+
+
+   ## Development History
+
+Manoa Bites was developed using Issue Driven Project Management, with tasks organized into milestones. Each milestone reflects a set of features implemented by our team.
+
+## Continuous Integration
+
+Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit.
+
+## Walkthrough Videos
+
+* [Manoa Bites Overview (5 min)](https://www.youtube.com/samplelink)
+* [Manoa Bites Feature Walkthrough (10 min)](https://www.youtube.com/samplelink)
+
+## Example Enhancements
+
+Enhancements that could further improve Manoa Bites include:
+
+* Adding notifications for when favorite items are available.
+* Allowing users to filter menus by dietary preferences (e.g., vegan, gluten-free).
+* Enabling a feedback system for users to rate menu items.
+
+## Team
+
+Manoa Bites is designed, implemented, and maintained by:
+
+- **John Bernardo** – Frontend Developer
+- **Leighton Miguel** – Backend Developer
+- **Caleb Hopkins** – UI/UX Designer
+- **Jingyu Huang** – Database Specialist
+- **Pelita Felicitas** – Project Manager
+
