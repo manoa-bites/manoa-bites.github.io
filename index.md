@@ -107,3 +107,5 @@ Manoa Bites is designed, implemented, and maintained by:
 - **Jingyu Huang** 
 - **Pelita Felicitas** 
 
+Team contract [here](https://docs.google.com/document/d/1nAwAa54P1vTGNB8MZJTzEddC39ePGWRlMXVhibOSc9M/edit?tab=t.0)
+
