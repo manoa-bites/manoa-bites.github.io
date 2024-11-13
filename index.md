@@ -75,6 +75,11 @@ This section provides setup and development information for those who wish to co
 
 Manoa Bites was developed using Issue Driven Project Management, with tasks organized into milestones. Each milestone reflects a set of features implemented by our team.
 
+Our current Milestone 1 project board [here](https://github.com/orgs/manoa-bites/projects/2)
+
+![m1 board](assets/m1board.png)
+
+
 ## Continuous Integration
 
 Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit.
@@ -96,9 +101,9 @@ Enhancements that could further improve Manoa Bites include:
 
 Manoa Bites is designed, implemented, and maintained by:
 
-- **John Bernardo** – Frontend Developer
+<!-- - **John Bernardo** – Frontend Developer
 - **Leighton Miguel** – Backend Developer
 - **Caleb Hopkins** – UI/UX Designer
 - **Jingyu Huang** – Database Specialist
-- **Pelita Felicitas** – Project Manager
+- **Pelita Felicitas** – Project Manager -->
 
