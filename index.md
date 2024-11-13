@@ -80,6 +80,10 @@ Our current Milestone 1 project board [here](https://github.com/orgs/manoa-bites
 ![m1 board](assets/m1board.png)
 
 
+Current data entity visual
+![data](assets/data.png)
+
+
 ## Continuous Integration
 
 Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit.
