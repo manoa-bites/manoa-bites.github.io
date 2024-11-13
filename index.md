@@ -101,9 +101,9 @@ Enhancements that could further improve Manoa Bites include:
 
 Manoa Bites is designed, implemented, and maintained by:
 
-<!-- - **John Bernardo** – Frontend Developer
-- **Leighton Miguel** – Backend Developer
-- **Caleb Hopkins** – UI/UX Designer
-- **Jingyu Huang** – Database Specialist
-- **Pelita Felicitas** – Project Manager -->
+- **John Bernardo** 
+- **Leighton Miguel** 
+- **Caleb Hopkins** 
+- **Jingyu Huang** 
+- **Pelita Felicitas** 
 
