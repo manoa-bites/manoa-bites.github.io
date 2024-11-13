@@ -77,7 +77,7 @@ Manoa Bites was developed using Issue Driven Project Management, with tasks orga
 
 Our current Milestone 1 project board [here](https://github.com/orgs/manoa-bites/projects/2)
 
-![m1 board](assets/m1board1.png)
+![m1 board](assets/m1board.png)
 
 
 Current data entity visual
