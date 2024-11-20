@@ -15,16 +15,20 @@
 
 ## Overview
 
-Manoa Bites is a web application designed to help students and staff at the University of Hawaii at Manoa easily find food options across campus locations. With Manoa Bites, users can discover available menu items, search for specific cuisines, and find out which dishes are being served on any given day. Key features include:
+Manoa Bites is a web application designed to help students and staff at the University of Hawaii at Manoa easily find food options across campus locations. With Manoa Bites, users can discover available menu items, search for specific restraurants, and find out which dishes are being served on any given day. Key features include:
 
 * **Campus-wide Food Directory**: Consolidates food options from Campus Center, food trucks, Manoa Gardens, and other campus locations.
 * **Real-time Updates**: Vendors can log in to update daily menus, ensuring users always see current options.
 * **Personalized Experience**: Users can set food preferences and get suggestions tailored to their tastes.
 * **Roles**: Three user roles (Users, Vendors, and Admins) for personalized and manageable access.
 
+<a href="https://docs.google.com/document/d/1nAwAa54P1vTGNB8MZJTzEddC39ePGWRlMXVhibOSc9M/edit?tab=t.0">
+## Team Contract
+<a>
+
 ## Deployment
 
-Manoa Bites is deployed on [link-to-deployment] for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
+Manoa Bites is deployed on <a href="https://manoa-bites.vercel.app/">https://manoa-bites.vercel.app/<a> for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
 
 ## User Guide
 
@@ -32,9 +36,9 @@ This section provides a walkthrough of the Manoa Bites user interface and its ca
 
 ### Landing Page
 
-The landing page introduces users to Manoa Bites and provides links to log in or sign up.
+<img width="100%" src="assets/m1landingpage.png" alt="Current Landing Page">
+The landing page of Manoa Bites brings up this home page where they are already presented with cards displaying restaurants and their restaurants.
 
-![](images/landing-page.png)
 
 ### Dashboard
 
@@ -52,6 +56,7 @@ Vendors can log in to update their daily menu items, ensuring that users always 
 
 We welcome feedback to improve Manoa Bites! Please take a few minutes to fill out our [Manoa Bites Feedback Form](https://forms.gle/samplelink), which will help us enhance the user experience.
 
+<!-- 
 ## Developer Guide
 
 This section provides setup and development information for those who wish to contribute to Manoa Bites.
@@ -93,6 +98,7 @@ Manoa Bites uses GitHub Actions for continuous integration, ensuring code qualit
 * [Manoa Bites Overview (5 min)](https://www.youtube.com/samplelink)
 * [Manoa Bites Feature Walkthrough (10 min)](https://www.youtube.com/samplelink)
 
+--> 
 ## Example Enhancements
 
 Enhancements that could further improve Manoa Bites include:
@@ -100,7 +106,6 @@ Enhancements that could further improve Manoa Bites include:
 * Adding notifications for when favorite items are available.
 * Allowing users to filter menus by dietary preferences (e.g., vegan, gluten-free).
 * Enabling a feedback system for users to rate menu items.
-
 ## Team
 
 Manoa Bites is designed, implemented, and maintained by:
