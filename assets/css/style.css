@@ -3,5 +3,5 @@
 
 @import "{{ site.theme }}";
 body {
-    background-color: #D4DFDD
+    background-color: #D4DFDD;
 }
