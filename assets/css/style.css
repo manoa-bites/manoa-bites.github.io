@@ -1,0 +1,7 @@
+---
+---
+
+body {
+    background-color: #D4DFDD
+}
+@import "{{ site.theme }}";
