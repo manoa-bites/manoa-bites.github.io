@@ -8,4 +8,8 @@ body {
 }
 .wrapper {
     margin-left: -20px;  /* Adjust this value as needed */
-  }
+}
+section {
+    width: 100%;  /* Makes it take up the full width of the parent container */
+    height: 500px;  /* Adjust the height as needed */
+}
