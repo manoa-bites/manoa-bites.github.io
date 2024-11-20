@@ -2,13 +2,13 @@
 ---
 
 
-h1 {
-    color: black;
-}
 @import "{{ site.theme }}";
 html{
     height: 100%;
     margin: 0;
+}
+h1 {
+    color: black;
 }
 body {
     background-color: #D4DFDD;
