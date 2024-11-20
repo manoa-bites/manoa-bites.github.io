@@ -41,12 +41,14 @@ This section provides a walkthrough of the Manoa Bites user interface and its ca
 ### Landing Page/Directory
 
 <img width="100%" src="assets/m1landingpage.png" alt="Current Landing Page">
+
 The landing page of Manoa Bites brings up this page where they are already presented with cards displaying restaurants and their restaurants.
 
 
 ### Map Page
 
 <img width="100%" src="assets/mappage.png" alt="Current Map Page">
+
 The Map index page is available to preview without having to log-in and displays an interactive Map centered at UH Manoa's Campus.
 
 ### Sign in and Sign up
