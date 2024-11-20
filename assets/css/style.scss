@@ -1,10 +1,11 @@
 ---
 ---
 
+@import "{{ site.theme }}";
+
 body {
     background-color: #D4DFDD;
 }
 .wrapper {
     margin-left: -20px;  /* Adjust this value as needed */
   }
-@import "{{ site.theme }}";
