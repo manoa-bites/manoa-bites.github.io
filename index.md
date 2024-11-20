@@ -1,8 +1,7 @@
-# Manoa Bites
-
 ## Table of contents
 
 * [Overview](#overview)
+* [Team Contract](#team-contract)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
@@ -29,9 +28,9 @@ Our team contract can be found <a href="https://docs.google.com/document/d/1nAwA
 
 ## Deployment
 
-Manoa Bites is deployed on <a href="https://manoa-bites.vercel.app/">https://manoa-bites.vercel.app/<a> for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
+Manoa Bites is deployed on <a href="https://manoa-bites.vercel.app/">https://manoa-bites.vercel.app/ <a> for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
 
-## User Guide
+## User Guide 
 
 This section provides a walkthrough of the Manoa Bites user interface and its capabilities.
 
@@ -81,6 +80,8 @@ Another link we have is for reporting problems. This form allows us to receieve 
 This form features a dropdown selection for topics that will allow for easier sorting when viewing the feedback as an admin.
 
 <img width="100%" src="assets/issueformdropdown.png" alt="Current Issue Form Topics">
+
+## Development History
 
 ## Milestone #1
 
