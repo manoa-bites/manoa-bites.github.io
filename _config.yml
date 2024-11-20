@@ -2,7 +2,7 @@ title: Manoa Bites
 logo: /assets/FullLogo.png
 description: An app catered to Manoa students looking for their next meal.
 github:
-  is_project_page: true
+  is_project_page: false
   repository_url: https://github.com/manoa-bites
 show_downloads: false
 google_analytics:
