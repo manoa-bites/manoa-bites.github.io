@@ -27,12 +27,12 @@ Manoa Bites is a web application designed to help students and staff at the Univ
 
 
 ## Team Contract
-Our team contract can be found <a href="https://docs.google.com/document/d/1nAwAa54P1vTGNB8MZJTzEddC39ePGWRlMXVhibOSc9M/edit?tab=t.0">here.<a>
+Our team contract can be found <a href="https://docs.google.com/document/d/1nAwAa54P1vTGNB8MZJTzEddC39ePGWRlMXVhibOSc9M/edit?tab=t.0">here.</a>
 
 
 ## Deployment
 
-Manoa Bites is deployed on <a href="https://manoa-bites.vercel.app/">https://manoa-bites.vercel.app/ <a> for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
+Manoa Bites is deployed on <a href="https://manoa-bites.vercel.app/">https://manoa-bites.vercel.app/</a> for easy access by the UH Manoa community. To start using the app, go to the deployment link and create an account or log in to access all features.
 
 ## User Guide 
 
@@ -89,7 +89,7 @@ This form features a dropdown selection for topics that will allow for easier so
 
 ### Milestone #1: Rough drafts
 
-<a href="https://github.com/orgs/manoa-bites/projects/2">Here is the link to our M1 project page.<a>
+<a href="https://github.com/orgs/manoa-bites/projects/2">Here is the link to our M1 project page.</a>
 
 For this Milestone, we primarily focused on setting up simple database models and pages/components. We have completed implementing the majority of our pages.
 
@@ -97,7 +97,7 @@ For this Milestone, we primarily focused on setting up simple database models an
 
 ### Milestone #2: Refinement
 
-<a href="https://github.com/orgs/manoa-bites/projects/4">Here is the link to our M2 project page.<a>
+<a href="https://github.com/orgs/manoa-bites/projects/4">Here is the link to our M2 project page.</a>
 
 In this upcoming Milestone we plan to add more information and functionality to our page. With our restaurant cards we aim to add more information about the restaurant(i.e. an image/logo, hours of operations, and brief description). Also we still need to make the favorites button on the restaurant card functional where it will save it to the Users favorites. 
 
