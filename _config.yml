@@ -6,4 +6,4 @@ github:
   repository_url: https://github.com/manoa-bites
 show_downloads: false
 google_analytics:
-remote_theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
