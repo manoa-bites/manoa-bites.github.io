@@ -4,13 +4,17 @@
 * [Team Contract](#team-contract)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
+* [Team](#team)
+
+<!--
+   NOT HERE YET
+* [Community Feedback](#community-feedback)
 * [Continuous Integration](#continuous-integration)
 * [Walkthrough Videos](#walkthrough-videos)
 * [Example Enhancements](#example-enhancements)
-* [Team](#team)
+-->
 
 ## Overview
 
@@ -83,17 +87,21 @@ This form features a dropdown selection for topics that will allow for easier so
 
 ## Development History
 
-## Milestone #1
+### Milestone #1: Rough drafts
 
 <a href="https://github.com/orgs/manoa-bites/projects/2">Here is the link to our M1 project page.<a>
 
 For this Milestone, we primarily focused on setting up simple database models and pages/components. We have completed implementing the majority of our pages.
 
-## Milestone #2
+<img width="100%" src="assets/m1backlog.png" alt="M1 done">
+
+### Milestone #2: Refinement
 
 <a href="https://github.com/orgs/manoa-bites/projects/4">Here is the link to our M2 project page.<a>
 
 In this upcoming Milestone we plan to add more information and functionality to our page. With our restaurant cards we aim to add more information about the restaurant(i.e. an image/logo, hours of operations, and brief description). Also we still need to make the favorites button on the restaurant card functional where it will save it to the Users favorites. 
+
+<img width="100%" src="assets/m2backlog.png" alt="M2 starting">
 
 <!-- 
 
@@ -118,20 +126,7 @@ This section provides setup and development information for those who wish to co
 3. Start the application:
    ```bash
    npm start
-
-
-   ## Development History
-
-Manoa Bites was developed using Issue Driven Project Management, with tasks organized into milestones. Each milestone reflects a set of features implemented by our team.
-
-Our current Milestone 1 project board [here](https://github.com/orgs/manoa-bites/projects/2)
-
-![m1 board](assets/m1board.png)
-
-
-Current data entity visual
-![data](assets/data.png)
-
+  
 
 ## Continuous Integration
 
@@ -142,7 +137,7 @@ Manoa Bites uses GitHub Actions for continuous integration, ensuring code qualit
 * [Manoa Bites Overview (5 min)](https://www.youtube.com/samplelink)
 * [Manoa Bites Feature Walkthrough (10 min)](https://www.youtube.com/samplelink)
 
---> 
+
 ## Example Enhancements
 
 Enhancements that could further improve Manoa Bites include:
@@ -150,6 +145,8 @@ Enhancements that could further improve Manoa Bites include:
 * Adding notifications for when favorite items are available.
 * Allowing users to filter menus by dietary preferences (e.g., vegan, gluten-free).
 * Enabling a feedback system for users to rate menu items.
+--> 
+
 ## Team
 
 Manoa Bites is designed, implemented, and maintained by:
@@ -160,5 +157,4 @@ Manoa Bites is designed, implemented, and maintained by:
 - **Jingyu Huang** 
 - **Pelita Felicitas** 
 
-Team contract [here](https://docs.google.com/document/d/1nAwAa54P1vTGNB8MZJTzEddC39ePGWRlMXVhibOSc9M/edit?tab=t.0)
 
