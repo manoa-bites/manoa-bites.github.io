@@ -103,7 +103,13 @@ For this Milestone, we primarily focused on setting up simple database models an
 
 In this upcoming Milestone we plan to add more information and functionality to our page. With our restaurant cards we aim to add more information about the restaurant(i.e. an image/logo, hours of operations, and brief description). Also we still need to make the favorites button on the restaurant card functional where it will save it to the Users favorites. 
 
-<img width="100%" src="assets/m2backlog.png" alt="M2 starting">
+<img width="100%" src="assets/m2backlog.png" alt="M2 done ish">
+
+### Milestone #3: Finishing Touches
+
+<a href="https://github.com/orgs/manoa-bites/projects/6/views/1">Here is the link to our M3 project page.</a>
+
+In this Milestone we hope to correct the errors we encountered in Milestone 2 so that the page is fully functioning again.
 
 <!-- 
 
