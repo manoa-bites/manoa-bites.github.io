@@ -40,16 +40,16 @@ This section provides a walkthrough of the Manoa Bites user interface and its ca
 
 ### Landing Page/Directory
 
-<img width="100%" src="assets/m1landingpage.png" alt="Current Landing Page">
+<img width="100%" src="assets/landingpage.png" alt="Current Landing Page">
 
-The landing page of Manoa Bites brings up this page where they are already presented with cards displaying restaurants and their restaurants.
+The landing page of Manoa Bites brings up this page where they are already presented with cards displaying restaurants and their restaurants. We are currently in the middle of testing the functions to add/edit restaurants so our images are not fully uploaded yet. We also added a search bar that has zero functionality yet that we hope to get finished in M3.
 
 
 ### Map Page
 
 <img width="100%" src="assets/mappage.png" alt="Current Map Page">
 
-The Map index page is available to preview without having to log-in and displays an interactive Map centered at UH Manoa's Campus.
+The Map index page is available to preview without having to log-in and displays an interactive Map centered at UH Manoa's Campus. There are markers here that make the locations easy to find.
 
 ### Sign in and Sign up
 
@@ -87,6 +87,22 @@ This form features a dropdown selection for topics that will allow for easier so
 
 <img width="100%" src="assets/issueformdropdown.png" alt="Current Issue Form Topics">
 
+### Admin Page
+
+When logged into the admin account, there is an option in the dropdown menu after clicking on your email.
+
+<img width="100%" src="assets/admindropdown.png" alt="How to access admin information">
+
+Clicking on Admin will take you to this page where the Admin can easily view current Restaurants, Locations, User, and Reported Issues
+
+<img width="100%" src="assets/adminpage.png" alt="How to access admin information">
+
+### Vendor Page
+
+When logged in as a vendor, the same dropdown tab is available for Vendors but will only display their restaurant they add where they can edit, delete, or add a new restaurant.
+
+<img width="100%" src="assets/vendorpage.png" alt="How to access vendor only information">
+
 ## Development History
 
 ### Milestone #1: Rough drafts
@@ -103,13 +119,15 @@ For this Milestone, we primarily focused on setting up simple database models an
 
 In this upcoming Milestone we plan to add more information and functionality to our page. With our restaurant cards we aim to add more information about the restaurant(i.e. an image/logo, hours of operations, and brief description). Also we still need to make the favorites button on the restaurant card functional where it will save it to the Users favorites. 
 
-<img width="100%" src="assets/m2backlog.png" alt="M2 done ish">
+<img width="100%" src="assets/m2backlog.png" alt="M2 done">
 
 ### Milestone #3: Finishing Touches
 
 <a href="https://github.com/orgs/manoa-bites/projects/6/views/1">Here is the link to our M3 project page.</a>
 
-In this Milestone we hope to correct the errors we encountered in Milestone 2 so that the page is fully functioning again.
+In this Milestone we hope to finalize our model database and add the remaining restaurants in our page. We will be refining other elements as well such as our google map and our search bar.
+
+<img width="100%" src="assets/m3backlog.png" alt="M3 start">
 
 <!-- 
 
