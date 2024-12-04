@@ -155,7 +155,7 @@ In this Milestone we hope to finalize our model database and add the remaining r
 
 ## Continuous Integration
 
-[![manoabites-application-template](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml/badge.svg)](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml)
+[![manoabites-application-template](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml/badge.svg?label=ci-manoabites)](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml)
 
 Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit. You can see the results of all recent "workflows" at <a href="https://github.com/manoa-bites/manoa-bites/actions">https://github.com/manoa-bites/manoa-bites/actions</a>.
 
