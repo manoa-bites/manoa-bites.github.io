@@ -4,14 +4,14 @@
 * [Team Contract](#team-contract)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
+* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
+* [Continuous Integration](#continuous-integration)
 * [Team](#team)
 
 <!--
    NOT HERE YET
-* [Community Feedback](#community-feedback)
-* [Continuous Integration](#continuous-integration)
 * [Walkthrough Videos](#walkthrough-videos)
 * [Example Enhancements](#example-enhancements)
 -->
@@ -103,6 +103,30 @@ When logged in as a vendor, the same dropdown tab is available for Vendors but w
 
 <img width="100%" src="assets/vendorpage.png" alt="How to access vendor only information">
 
+## Community Feedback
+
+We welcome feedback to improve Manoa Bites! Please take a few minutes to fill out our [Manoa Bites Feedback Form]<a href="https://forms.gle/BzFbBFjH5P7m48dK6">(https://forms.gle/BzFbBFjH5P7m48dK6)</a>, which will help us enhance the user experience.
+
+## Developer Guide
+
+This section provides setup and development information for those who wish to contribute to Manoa Bites.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ManoaBites/Manoa-bites-app.git
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   
+3. Start the application:
+   ```bash
+   npm start
+  
+
+
 ## Development History
 
 ### Milestone #1: Rough drafts
@@ -129,34 +153,15 @@ In this Milestone we hope to finalize our model database and add the remaining r
 
 <img width="100%" src="assets/m3backlog.png" alt="M3 start">
 
-<!-- 
-
-## Community Feedback
-
-We welcome feedback to improve Manoa Bites! Please take a few minutes to fill out our [Manoa Bites Feedback Form](https://forms.gle/samplelink), which will help us enhance the user experience.
-
-## Developer Guide
-
-This section provides setup and development information for those who wish to contribute to Manoa Bites.
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ManoaBites/Manoa-bites-app.git
-
-2. Install the dependencies:
-   ```bash
-   npm install
-   
-3. Start the application:
-   ```bash
-   npm start
-  
-
 ## Continuous Integration
 
-Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit.
+[![manoabites-application-template](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml/badge.svg)](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml)
+
+Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit. You can see the results of all recent "workflows" at <a href="https://github.com/manoa-bites/manoa-bites/actions">https://github.com/manoa-bites/manoa-bites/actions</a>.
+
+<!-- 
+
+
 
 ## Walkthrough Videos
 
