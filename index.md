@@ -45,6 +45,12 @@ This section provides a walkthrough of the Manoa Bites user interface and its ca
 
 The landing page of Manoa Bites brings up this page where they are already presented with cards displaying restaurants and their restaurants. We are currently in the middle of testing the functions to add/edit restaurants so our images are not fully uploaded yet. We also added a search bar that has zero functionality yet that we hope to get finished in M3.
 
+### Search Bar on LandingPage/Directory
+
+<img width="100%" src="assets/searchbar.png" alt="Current Landing Page">
+
+The search bar found on the landing page allows users to sort through the restaurants by name in ascending and descending order and by location on campus. This feature can be accessed throught the sort dropdown. Users can also for a specific restaurant by utilizing the form that displays "Search for a Restaurant."
+
 
 ### Map Page
 
@@ -94,7 +100,7 @@ When logged into the admin account, there is an option in the dropdown menu afte
 
 <img width="100%" src="assets/admindropdown.png" alt="How to access admin information">
 
-Clicking on Admin will take you to this page where the Admin can easily view current Restaurants, Locations, User, and Reported Issues
+Clicking on Admin will take you to this page where the Admin can easily view/edit current Restaurants, Locations, User, and Reported Issues.
 
 <img width="100%" src="assets/adminpage.png" alt="How to access admin information">
 
