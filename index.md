@@ -105,6 +105,17 @@ When logged in as a vendor, the same dropdown tab is available for Vendors but w
 
 ## Community Feedback
 
+Gabrielle Huliganga - UH Manoa Student
+
+"The map feature is helpful and I like how the places can be sorted by location on campus. I think the map could be 
+improved by adding a pop-up of restaurant information when I click a pin"
+
+Jalen Lum - UH Manoa Student
+
+"I like the overall concept of the site but I think It would be a lot more convenient to have it as a mobile app so I don't
+need to type in a URL to use it. I'm a on campus resident so I think adding whether the restaurants take meal swipes or not
+would be helpful as well."
+
 We welcome feedback to improve Manoa Bites! Please take a few minutes to fill out our [Manoa Bites Feedback Form]<a href="https://forms.gle/BzFbBFjH5P7m48dK6">(https://forms.gle/BzFbBFjH5P7m48dK6)</a>, which will help us enhance the user experience.
 
 ## Developer Guide
