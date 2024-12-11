@@ -8,12 +8,13 @@
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
+* [Example Enhancements](#example-enhancements)
 * [Team](#team)
 
 <!--
    NOT HERE YET
 * [Walkthrough Videos](#walkthrough-videos)
-* [Example Enhancements](#example-enhancements)
+
 -->
 
 ## Overview
@@ -105,38 +106,129 @@ When logged in as a vendor, the same dropdown tab is available for Vendors but w
 
 ## Community Feedback
 
-Gabrielle Huliganga - UH Manoa Student
-
-"The map feature is helpful and I like how the places can be sorted by location on campus. I think the map could be 
-improved by adding a pop-up of restaurant information when I click a pin"
-
-Jalen Lum - UH Manoa Student
-
-"I like the overall concept of the site but I think It would be a lot more convenient to have it as a mobile app so I don't
-need to type in a URL to use it. I'm a on campus resident so I think adding whether the restaurants take meal swipes or not
-would be helpful as well."
-
 We welcome feedback to improve Manoa Bites! Please take a few minutes to fill out our [Manoa Bites Feedback Form]<a href="https://forms.gle/BzFbBFjH5P7m48dK6">(https://forms.gle/BzFbBFjH5P7m48dK6)</a>, which will help us enhance the user experience.
+
+Here are some of the feedback we have received via our Google Form:
+
+<img width="100%" src="assets/feedback1.png" alt="Google Form Responses 1">
+
+<img width="100%" src="assets/feedback2.png" alt="Google Form Responses 2">
+
+<img width="100%" src="assets/feedback3.png" alt="Google Form Responses 3">
+
+<img width="100%" src="assets/feedback4.png" alt="Google Form Responses 4">
+
+<img width="100%" src="assets/feedback5.png" alt="Google Form Responses 5">
+
+<img width="100%" src="assets/feedback6.png" alt="Google Form Responses 6">
 
 ## Developer Guide
 
-This section provides setup and development information for those who wish to contribute to Manoa Bites.
+This section provides information of interest to Meteor developers who wish to contribute to Manoa Bites or use this as a template for their own development tasks.
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ManoaBites/Manoa-bites-app.git
+First, [install PostgreSQL](https://www.postgresql.org/download/). Then create a database for your application.
 
-2. Install the dependencies:
-   ```bash
-   npm install
-   
-3. Start the application:
-   ```bash
-   npm start
-  
+```
 
+$ createdb manoabites
+Password:
+$
+
+```
+
+Second, go to [https://github.com/manoa-bites/manoa-bites](https://github.com/manoa-bites/manoa-bites), and click on the "Code" button and select the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
+
+Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system. Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
+
+Fourth, cd into the directory of your local copy of the repo, and install third party libraries with:
+
+```
+
+$ npm install
+
+```
+
+Fifth, create a `.env` file from the `sample.env`. Set the `DATABASE_URL` variable to match your PostgreSQL database that you created in the first step. See the Prisma docs [Connect your database](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/connect-your-database-typescript-postgresql). Then run the Prisma migration `npx prisma migrate dev` to set up the PostgreSQL tables.
+
+```
+
+$ npx prisma migrate dev
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "<your database name>", schema "public" at "localhost:5432"
+
+Applying migration `20240708195109_init`
+
+The following migration(s) have been applied:
+
+migrations/
+└─ 20240708195109_init/
+└─ migration.sql
+
+Your database is now in sync with your schema.
+
+✔ Generated Prisma Client (v5.16.1) to ./node_modules/@prisma/client in 51ms
+
+$
+
+```
+
+Then seed the database with the `/config/settings.development.json` data using `npx prisma db seed`.
+
+```
+
+$ npx prisma db seed
+Environment variables loaded from .env
+Running seed command `ts-node --compiler-options {"module":"CommonJS"} prisma/seed.ts` ...
+Seeding the database
+Creating user: admin@foo.com with role: ADMIN
+Creating user: john@foo.com with role: USER
+
+🌱 The seed command has been executed.
+$
+
+```
+
+## Running the system
+
+Once the libraries are installed and the database seeded, you can run the application by invoking the "dev" script in the [package.json file](https://github.com/ics-software-engineering/nextjs-application-template/blob/master/app/package.json):
+
+```
+
+$ npm run dev
+
+> nextjs-application-template-1@0.1.0 dev
+> next dev
+
+▲ Next.js 14.2.4
+
+- Local: http://localhost:3000
+- Environments: .env
+
+✓ Starting...
+✓ Ready in 1619ms
+
+```
+
+### Viewing the running app
+
+If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in [settings.development.json](https://github.com/ics-software-engineering/nextjs-application-template/blob/main/config/settings.development.json), or else register a new account.
+
+### ESLint
+
+You can verify that the code obeys our coding standards by running ESLint over the code in the src/ directory with:
+
+```
+$ npm run lint
+
+> nextjs-application-template-1@0.1.0 lint
+> next lint
+
+✔ No ESLint warnings or errors
+$
+```
 
 ## Development History
 
@@ -160,7 +252,7 @@ In this upcoming Milestone we plan to add more information and functionality to 
 
 <a href="https://github.com/orgs/manoa-bites/projects/6/views/1">Here is the link to our M3 project page.</a>
 
-In this Milestone we hope to finalize our model database and add the remaining restaurants in our page. We will be refining other elements as well such as our google map and our search bar.
+In this Milestone we added a bit more functionality to the admin page and search bar. We then started adding real data into our database to reflect real restaurants on campus.
 
 <img width="100%" src="assets/m3backlog.png" alt="M3 start">
 
@@ -169,6 +261,16 @@ In this Milestone we hope to finalize our model database and add the remaining r
 [![manoabites-application-template](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml/badge.svg?label=ci-manoabites)](https://github.com/manoa-bites/manoa-bites/actions/workflows/ci.yml)
 
 Manoa Bites uses GitHub Actions for continuous integration, ensuring code quality and passing tests on every commit. You can see the results of all recent "workflows" at <a href="https://github.com/manoa-bites/manoa-bites/actions">https://github.com/manoa-bites/manoa-bites/actions</a>.
+
+
+## Example Enhancements
+
+Enhancements that could further improve Manoa Bites include:
+
+* Adding notifications for when favorite items are available.
+* Allowing users to filter menus by dietary preferences (e.g., vegan, gluten-free).
+* Enabling a feedback system for users to rate menu items.
+* Having a search bar in the google map on the Maps tab.
 
 <!-- 
 
@@ -180,13 +282,6 @@ Manoa Bites uses GitHub Actions for continuous integration, ensuring code qualit
 * [Manoa Bites Feature Walkthrough (10 min)](https://www.youtube.com/samplelink)
 
 
-## Example Enhancements
-
-Enhancements that could further improve Manoa Bites include:
-
-* Adding notifications for when favorite items are available.
-* Allowing users to filter menus by dietary preferences (e.g., vegan, gluten-free).
-* Enabling a feedback system for users to rate menu items.
 --> 
 
 ## Team
