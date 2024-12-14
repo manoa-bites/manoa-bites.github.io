@@ -56,7 +56,14 @@ The search bar found on the landing page allows users to sort through the restau
 
 <img width="100%" src="assets/mappage.png" alt="Current Map Page">
 
-The Map index page is available to preview without having to log-in and displays an interactive Map centered at UH Manoa's Campus. There are markers here that make the locations easy to find.
+The Map index page is available to preview without having to log-in and displays an interactive Map centered at UH Manoa's Campus. There are markers here that make the locations easy to find. The initial markers just mark the main locations on UH Manoa's Campus. The drop down selection will load the marker for the selected restaurant.
+
+### Map for Selected Restaurant
+
+<img width="100%" src="assets/selectmap.png" alt="Select A Restaurant To Map">
+
+<img width="100%" src="assets/specificmap.png" alt="Selected Restaurants Location">
+
 
 ### Sign in and Sign up
 
@@ -68,15 +75,23 @@ Clicking "Sign Up" will take you to this page:
 
 <img width="100%" src="assets/signup.png" alt="Current Sign Up Page">
 
+After signing in/up you will have three options when you click on your email in the top right corner of the page.
+
 ### Favorites Page
 
-After Signing in to an existing account, users can access their favorite restaurants they saved but clicking on their email in the right of the navbar.
-
-<img width="100%" src="assets/favoritestab.png" alt="Where favorite restaurants can be found">
-
-Clicking on "Favorites" will take you to this page that loads the Restaurant cards you have saved.
+After Signing in to an existing account, users can access their favorite restaurants they saved but clicking on their email in the right of the navbar. Clicking on "Favorites" will take you to this page that loads the Restaurant cards you have saved.
 
 <img width="100%" src="assets/favoritespage.png" alt="Current Map Page">
+
+### Change Password
+
+Here you can change your password as needed.
+
+<img width="100%" src="assets/changepassword.png" alt="Current Map Page">
+
+### Sign Out
+
+Choosing "Sign Out" will redirect you to this page. When clicking either the "Sign Out" or the "Cancel" button, it will redirect you to the home page and process your choice of signing out or cancelling. 
 
 ### FAQ
 
@@ -96,7 +111,7 @@ This form features a dropdown selection for topics that will allow for easier so
 
 ### Admin Page
 
-When logged into the admin account, there is an option in the dropdown menu after clicking on your email.
+When logged into the admin account, there is an aditional option in the dropdown menu after clicking on your email called "Admin".
 
 <img width="100%" src="assets/admindropdown.png" alt="How to access admin information">
 
